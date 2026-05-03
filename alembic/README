@@ -1,0 +1,1 @@
+Migrations usam URL **síncrona** (sem `+asyncpg`). Por padrão, `alembic/env.py` remove `+asyncpg` de `DATABASE_URL`. Opcional: defina `DATABASE_URL_SYNC`.
